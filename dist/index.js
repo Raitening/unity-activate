@@ -288,7 +288,7 @@ class ImageTag {
         if (customImage && customImage !== '') {
             return customImage;
         }
-        const dockerRepoVersion = 1;
+        const dockerRepoVersion = 3;
         return `${image}:${tag}-${dockerRepoVersion}`;
     }
 }
